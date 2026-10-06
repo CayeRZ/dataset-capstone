@@ -1,0 +1,1 @@
+python3 extract.py -v ./36/10.mp4 -o ./dataset/36/drowsy -p p36 -f 100
