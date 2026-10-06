@@ -9,8 +9,8 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "opencv-python>=4.8.0",
-    "numpy<2.2.0",
+    "numpy<2.2",
+    "opencv-python-headless>=4.10,<5",
 ]
 
 [project.scripts]

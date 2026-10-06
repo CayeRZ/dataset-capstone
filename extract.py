@@ -113,7 +113,11 @@ def main():
     # Mapeo: nombre de video de entrada -> carpeta de salida
     video_mapping = {
         "0.mp4": "normal",
-        "10.mp4": "drowsy"
+        "10.mp4": "drowsy",
+        "0.mov": "normal",
+        "10.mov": "drowsy",
+        "0.MOV": "normal",
+        "10.MOV": "drowsy",
     }
 
     print(f"=== Iniciando proceso en lote (Sujetos {args.start} a {args.end}) ===")
