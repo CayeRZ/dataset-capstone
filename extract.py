@@ -115,9 +115,7 @@ def main():
         "0.mp4": "normal",
         "10.mp4": "drowsy",
         "0.mov": "normal",
-        "10.mov": "drowsy",
-        "0.MOV": "normal",
-        "10.MOV": "drowsy",
+        "10.mov": "drowsy"
     }
 
     print(f"=== Iniciando proceso en lote (Sujetos {args.start} a {args.end}) ===")
